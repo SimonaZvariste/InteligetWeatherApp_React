@@ -179,8 +179,6 @@ const Home = () => {
                         <p>{`Se simte ca ${weather?.main?.feels_like && Math.round(weather?.main?.feels_like)}℃ Umiditate ${weather?.main?.humidity}%`}</p>
                     </div>
                 </div>
-
-
                 <div className="container-card-custom">
                     {forecast && Object.keys(forecast).map(day => (
                         <div className="card-custom" key={day}>
